@@ -1,7 +1,7 @@
 # PRODIGY_WD_04
-# 🌐 Anshika Srivastava | Personal Portfolio Website
+# 🌐 Shreyash Mishra | Personal Portfolio Website
 
-This is a **responsive personal portfolio website** for Anshika Srivastava, an aspiring IT Developer and Web Enthusiast. It showcases her **skills**, **projects**, and **academic background**, with a clean design and engaging user experience.
+This is a **responsive personal portfolio website** for Shreyash Mishra, an aspiring IT Developer and Web Enthusiast. It showcases her **skills**, **projects**, and **academic background**, with a clean design and engaging user experience.
 
 ---
 
@@ -37,7 +37,7 @@ This is a **responsive personal portfolio website** for Anshika Srivastava, an a
 
 1. **Download/Clone the Repository**
    ```bash
-   git clone https://github.com/Anshika22-03/PRODIGY_WD_04.git
+   git clone https://github.com/shreyashm012/PRODIGY_WD_04.git
    cd my-portfolio
 
   📄 Pages Overview
