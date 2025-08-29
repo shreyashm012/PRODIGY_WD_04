@@ -1,56 +1,65 @@
-# PRODIGY_WD_04
-# 🌐 Shreyash Mishra | Personal Portfolio Website
+# XOLeague - Tic Tac Toe Game
 
-This is a **responsive personal portfolio website** for Shreyash Mishra, an aspiring IT Developer and Web Enthusiast. It showcases her **skills**, **projects**, and **academic background**, with a clean design and engaging user experience.
+**XOLeague** is a visually engaging Tic Tac Toe game built using HTML, CSS, and JavaScript. It supports both **Single Player (vs AI)** and **Multiplayer (local PvP)** modes, offering an animated and stylish UI with a smooth gameplay experience.
 
----
+## 🔥 Features
+
+- 🎮 **Two Game Modes**:
+  - **Single Player**: Play against a basic AI opponent.
+  - **Multiplayer**: Two players can compete on the same device.
+- ✨ **Animated UI** with neon-style buttons and glowing effects.
+- 🎨 Responsive and theme-based **CSS design** with background images and gradients.
+- 👤 Player name input and scoreboard tracking.
+- 🧠 Simple AI logic for a fun challenge.
 
 ## 📁 Project Structure
-
-/project-root
+XOLeague/
 │
-├── index.html # Homepage
-├── about.html # About Me Page
-├── skills.html # Skills Page
-├── projects.html # Projects Showcase
+├── index.html # Main menu to choose game mode
+├── game_ai.html # Single player game screen
+├── game_multiplayer.html # Multiplayer game screen
 │
-├── style-index.css # CSS for homepage
-├── style.css # CSS for About, Skills, Projects pages
+├── css/
+│ └── style.css # Styling for all pages
 │
-├── assets/
-│ └── images/
-│ ├── bg.avif # Homepage background image
-│ ├── bg1.avif # Background for other pages
-│ └── myimage.jpg # Profile photo
+├── js/
+│ ├── ai.js # Game logic for AI mode
+| ├──home.js
+│ └── multiplayer.js # Game logic for multiplayer mode
+│
+├── images/
+│ ├── bg.jpg # Background image
+│ └── tic.gif # Animated logo
 
-## 🧩 Features
+## 🚀 Getting Started
 
-- Fully responsive layout for desktop and mobile
-- Transparent overlays to highlight background images
-- Smooth CSS transitions and animations
-- Organized content with cards and sections
-- Sticky navigation bar
+To run the game locally:
+
+1. Clone or download this repository.
+2. Make sure your folder structure matches the one above (especially paths to `css/`, `js/`, and `images/`).
+3. Open `index.html` in any modern web browser.
+
+## 🎮 Controls
+
+- Click on cells to make a move.
+- In AI mode, after entering your name, play as **X** and let the AI play as **O**.
+- In Multiplayer mode, both players enter their names and take turns clicking cells.
+
+## 📌 Notes
+
+- Make sure your browser allows JavaScript and supports modern ES6+ features.
+- All assets (e.g., background image and GIF) must be in the correct relative paths for full functionality.
+
+## 🛠️ Future Enhancements (Suggestions)
+
+- Add difficulty levels for AI (Easy, Medium, Hard).
+- Track game history or allow game replays.
+- Add sound effects or background music.
+
+## 🧑‍💻 Author
+
+Developed with ❤️ for learning and fun.
 
 ---
 
-## 🚀 How to Run
-
-1. **Download/Clone the Repository**
-   ```bash
-   git clone https://github.com/shreyashm012/PRODIGY_WD_04.git
-   cd my-portfolio
-
-  📄 Pages Overview
-Home (index.html): Welcome section with profile image, name, and tagline.
-About (about.html): Brief intro, educational background, and interests.
-Skills (skills.html): Technical and soft skills listed in bullet points.
-Projects (projects.html): Detailed cards showcasing personal and academic projects.
-
-🎨 Design Notes
-Typography: 'Segoe UI', sans-serif
-Color Highlights: #ffd700 (gold), white text on dark overlays
-Backgrounds: Subtle, immersive images used to enhance visual appeal
-
-
-📝 License
-This project is open-source and free to use for learning or inspiration purposes.
+> "Sometimes the simplest games are the most fun." – XOLeague Team
